@@ -5,6 +5,7 @@ python:
 
 before_script: 
   - pip install python-coveralls
+  - pip install coverage
 script: 
   - make test
 after_success: 
