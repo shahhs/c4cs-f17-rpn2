@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 
 import operator
-
+import pprint
 
 operators = {
 	'+': operator.add,
 	'-': operator.sub,
 	'*': operator.mul,
 	'/': operator.truediv,
-	'^': operator.pow,
+	'^': operator.pow
 }
 
 
