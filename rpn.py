@@ -11,7 +11,9 @@ operators = {
 	'^': operator.pow,
 }
 
-
+def donothingagain(): 
+	x=2
+	return
 def donothing():
 	x=1 
 	return 
