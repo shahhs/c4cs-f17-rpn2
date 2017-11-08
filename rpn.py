@@ -13,6 +13,9 @@ operators = {
 }
 
 
+def donothing():
+	x=1 
+	return 
 
 def calculate(myarg):
 	stack = list()
