@@ -11,12 +11,7 @@ operators = {
 	'^': operator.pow,
 }
 
-def donothingagain(): 
-	x=2
-	return
-def donothing():
-	x=1 
-	return 
+
 def calculate(myarg):
 	stack = list()
 	for token in myarg.split():
