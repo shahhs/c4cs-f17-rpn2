@@ -9,4 +9,4 @@ script:
   - nosetests --with-coverage 
   - make test
 after_success: 
-  - coveralls
+  - coverall
