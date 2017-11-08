@@ -1,14 +1,12 @@
 language: python 
-
-python: 
+rvm: 
   - 3.5
-
 before_script: 
   - pip install python-coveralls
   - pip install coverage
   - pip install nose
 script: 
-  - make test
   - nosetests --with-coverage 
+  - make test
 after_success: 
   - coveralls
