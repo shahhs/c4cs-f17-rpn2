@@ -12,6 +12,7 @@ operators = {
 }
 
 
+
 def calculate(myarg):
 	stack = list()
 	for token in myarg.split():
